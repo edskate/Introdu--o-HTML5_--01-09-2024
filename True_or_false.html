@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdadeiro ou falso:</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/Elegantthemes-Softies-Calendar.256.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Calendar:</h1>
+    <img src="/img/Elegantthemes-Softies-Calendar.256.png" width="40" alt="">
+
+<h2>Operators:</h2>
+<h3>Functions:</h3>
+    <p>Os dois operadores de iguladade aceitos em <i>JavaScript</i> <br> podem causar um pouco de confução quando trabalhamos com eles.</p>
+    <p>Quando == é usado, os valores poderão ser considerados iguais  mesmo se forem de tipos diferentes. <br> Isso pode ser confuso, até mesmo para um desenvolvedor <i>Javacript</i> <br> mais experiente. 
+     <br> Vamos analizar como == funciona usando a tabela a seguir: 👇</p>
+
+     <table border="3" width="500">
+        <tr>
+            <th>Type(x)</th>
+            <th>Type(y)</th>
+            <th>Type(Resultado)</th>
+        </tr>
+        <tr>
+            <td>null</td>
+            <td>undefined</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>undefined</td>
+            <td>null</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>Number</td>
+            <td>String</td>
+            <td>x == toNumber(y)</td>
+        </tr>
+        <tr>
+            <td>Boolean</td>
+            <td>Any</td>
+            <td>toNuber(x) == y</td>
+        </tr>
+        <tr>
+            <td>Any</td>
+            <td>Boolean</td>
+            <td>x == toNumber(y)</td>
+        </tr>
+        <tr>
+            <td>String ou Number</td>
+            <td>Object</td>
+            <td>x == toPrimitive(y)</td>
+        </tr>
+        <tr>
+            <td>Object</td>
+            <td>String ou Number</td>
+            <td>toPrimitive(x) == y</td>
+        </tr>
+     </table>
+     <script>
+        var num = 1;
+        if (num === 1){
+            console.log('num is equal to 1');
+        }
+        
+     </script>
+     <img src="/img/Control 1.png" width="200" alt="">
+     <img src="/img/Console 02.jpg" width="200" alt="">
+     <br>
+     <a href="Table01.html">Seguimento 2</a>
+</body>
+</html>

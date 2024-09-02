@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Exemplo 03:</h2>
+    <p>Vamos observar os resultados de alguns exemplos. <br> Inicialmente, sabemos que a saida do código a seguir é true (<i>tamanho da string>1)</i>:</p>
+    <script>
+        console.log('packt' ? true : false);
+        console.log('packt' == true);
+    </script>
+    <p>O Resultado será <i>true</i>.</p>
+    <p><i>console.log('packt' ?👇 true : false);</i></p>
+    <img src="/img/true.jpg" width="200" alt=""> <br>
+    <p><i>console.log('packt' == true);</i></p>
+    <p>Resultado👇</p>
+    <img src="/img/false.jpg" width="200" alt="">
+    <p>A saida é false, então vamos entender o porquê:</p>
+    <li>Inicialmente, o valor booleano é convertido com tNumber. <br>portanto temos <i>packt == 1</i>.</li>
+
+    <li>Em seguida, o valor de string é comvertido com toNumber. <br> Como a string é constituida de caracteres alfabéticos, <i>NaN</i> será devolvido, portanto temos  <i>NaN == 1, que é falso.</i></li> <br>
+ <p>E o que dizer do código a seguir? Vamos analisá-lo:</p>
+ <p><i>console.log('packt' == false);</i></p>
+ <p>A saida também é <i>false,</i> e os motivos são estes:</p>
+
+ <li>Inicialmente, o valor boolean é convertido com toNumber. portanto temos <i>packt == 0</i>.</li>
+  <br><li> em seguida o valor de string e convertido com <i>toNumber.</i> Como a string é constituida de caracteres alfábeticos,  <i>NaN</i> será devolvido, portanto temos  <i>NaN == 0, que é falso.</i></li>
+  <p>E quando ao operador === ? Esse é muito mais simples. <br> Se estivermos comprando dois valores de tipos diferentes, o resultado será sempre false. <br> Se forem do mesmo  tipo, eles serão comparados de acordo com a tabela a seguir.👇</p>
+
+  <table border="3" width="500">
+    <tr>
+        <th>Type(x)</th>
+        <th>Valores</th>
+        <th>Resultado</th>
+    </tr>
+    <tr>
+        <td>Number</td>
+        <td>x tem o mesmo valor que y <i>(mas nãi é NaN)</i></td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>String</td>
+        <td>x e y têm caracteres idênticos</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>Boolean </td>
+        <td>x e y são ambos true ou são ambos false</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>Object</td>
+        <td>x e y refereciam o mesmo objeto</td>
+        <td>true</td>
+    </tr>
+  </table>
+<p><em>Se x e y forem de tipos diferentes, o resultado será false. <br> Vamos considerar alguns exemplos:</em></p>
+<a href="Capitulo_1.html">Capitulo 0=>Uma visão geral raida</a>
+</body>
+</html>

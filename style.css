@@ -1,0 +1,130 @@
+em {
+  color: black;
+  text-shadow: 1px 2px 3px #000;
+  padding: 10px;
+}
+i {
+  color: rgb(144, 5, 28);
+  text-shadow: 2px 3px 4px #000;
+  margin: 30px;
+}
+body {
+  background-color: #f0f0e0;
+  margin: 0 auto;
+  width: 960px;
+}
+
+#cab {
+  background-color: #508050;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0px 0px 20px 20px;
+  color: #fff;
+}
+#parques {
+  background-color: #505080;
+  padding: 0px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #508050;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px 20px 0px 0px;
+  color: #fff;
+  margin-top: 20px;
+}
+#cab,
+footer {
+  background-color: #508050;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0px 0px 20px 20px;
+  color: #fff;
+}
+footer {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+#parques img {
+  float: left;
+  margin: 0px 10px 0px 0px;
+  width: 150px;
+}
+.vazio {
+  clear: both;
+}
+#parques article {
+  border-bottom: 1px dashed #a0ffff;
+  padding-bottom: 10px;
+}
+#parques h1,
+#parques h2 {
+  color: #fff;
+}
+#parques p {
+  text-align: justify;
+  color: #a0ffff;
+}
+h2 {
+  font-size: 15px;
+  margin: 30px;
+}
+h1 {
+  padding-top: 20px;
+  margin: 20px;
+  padding: 30px;
+}
+#menu {
+  float: left;
+  margin-top: 93px;
+  width: 453px;
+}
+#menu a:hover {
+  color: #000;
+}
+#menu ul {
+  list-style: none;
+  background: linear-gradient(to bottom, #ddd, #666);
+  padding: 0px;
+  margin: 0px;
+}
+#menu li {
+  height: 57px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+  border-right: 1px solid #062;
+}
+#menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+body {
+  margin: 0 auto;
+  width: 960px;
+  background-color: #ddd;
+  padding: 0px;
+  background: url(fundo.gif) repeat-x;
+}
+#cab img {
+  float: left;
+}
+#social {
+  float: right;
+  margin-top: 40px;
+}
+#social img {
+  width: 32px;
+  height: 32px;
+}
+table{
+  margin: 50px;
+}
+p{
+margin: 20px;
+}
+img, li{
+  margin: 20px;
+  box-shadow: 1px 2px 3px #000;
+}
